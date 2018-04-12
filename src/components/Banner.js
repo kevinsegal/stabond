@@ -9,7 +9,7 @@ const Banner = (props) => (
             <div className="content">
                 <p>Stabond has supplied specialty engineered adhesives, sealants, coatings, and silicone compounds to clients in the transportation, marine, aeospace, military, and commercial building industries for over 50 years.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Contact Us</a></li>
+                    <li><a href="#one" className="button next scrolly">Explore</a></li>
                 </ul>
             </div>
         </div>

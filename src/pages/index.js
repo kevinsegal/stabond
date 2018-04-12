@@ -92,7 +92,7 @@ class HomeIndex extends React.Component {
                             <p>Using our advanced facilities, our highly skilled team can custom-formulate adhesives that meet your application requirements. From Aerospace to Sporting Goods, we deliver increased production, reliability, dedicated service, and overall cost savings.</p>
                             
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Tell Us About Your Application</Link></li>
+                                <li><Link to="/landing" className="button next">Get a Quote</Link></li>
                             </ul>
                         </div>
                     </section>

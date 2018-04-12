@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Forty by HTML5 UP"
+    title: "Adhesives & Silicon Composites by Stabond",
+    author: "Stabond Corporation",
+    description: "Stabond Corporation is a California based manufacturer of specialty engineered adhesives, sealants, coatings and silicone compounds."
   },
   pathPrefix: '/',
   plugins: [
@@ -33,6 +33,14 @@ module.exports = {
           "gatsby-remark-copy-linked-files",
         ],
       },
+    },
+    { 
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `titillium web\:400,400i,700,700i`
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
